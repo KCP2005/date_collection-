@@ -1,0 +1,19 @@
+prathana_japyadnya/
+├── client/                 # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Page components
+│   │   ├── context/        # React context for state management
+│   │   ├── services/       # API service calls
+│   │   ├── utils/          # Utility functions
+│   │   └── App.js          # Main app component
+├── server/                 # Node.js backend
+│   ├── config/             # Configuration files
+│   ├── controllers/        # Request handlers
+│   ├── middleware/         # Custom middleware
+│   ├── models/             # MongoDB schemas
+│   ├── routes/             # API routes
+│   └── server.js           # Entry point
+├── .env                    # Environment variables
+└── package.json           # Project dependencies
